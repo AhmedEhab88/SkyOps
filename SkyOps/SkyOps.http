@@ -1,0 +1,6 @@
+@SkyOps_HostAddress = http://localhost:5210
+
+GET {{SkyOps_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

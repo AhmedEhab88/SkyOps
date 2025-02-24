@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyOps.API", "SkyOps.API.csproj", "{B0C16BCF-BDBD-4842-97F3-CF7AF94CDDCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyOps.Domain", "..\SkyOps.Domain\SkyOps.Domain.csproj", "{627E921D-2730-432A-A609-17AC6E4E65E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyOps.Infrastructure", "..\SkyOps.Infrastructure\SkyOps.Infrastructure.csproj", "{BB33F364-D6AF-4CA4-92D6-4EFB4191D3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C16BCF-BDBD-4842-97F3-CF7AF94CDDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C16BCF-BDBD-4842-97F3-CF7AF94CDDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C16BCF-BDBD-4842-97F3-CF7AF94CDDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C16BCF-BDBD-4842-97F3-CF7AF94CDDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627E921D-2730-432A-A609-17AC6E4E65E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627E921D-2730-432A-A609-17AC6E4E65E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627E921D-2730-432A-A609-17AC6E4E65E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627E921D-2730-432A-A609-17AC6E4E65E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB33F364-D6AF-4CA4-92D6-4EFB4191D3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB33F364-D6AF-4CA4-92D6-4EFB4191D3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB33F364-D6AF-4CA4-92D6-4EFB4191D3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB33F364-D6AF-4CA4-92D6-4EFB4191D3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
