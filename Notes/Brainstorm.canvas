@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"c0f5a0adcafd4cfc","type":"text","text":"SkyOps","x":-125,"y":-30,"width":116,"height":60},
+		{"id":"708b3b287c5937ee","type":"text","text":"Entities","x":125,"y":-340,"width":115,"height":28},
+		{"id":"51702e3506aad986","type":"text","text":"**Flight**\n- ID\n- Departure Airport\n- Arrival Airport\n- Date & Time\n- Number Of Passengers\n- Airline\n- Equipment\n- Seat Preference (Window/Aisle)","x":140,"y":-30,"width":240,"height":350},
+		{"id":"25c37dac1d8d9558","type":"text","text":"Airline\n- ID\n- Name\n- Code","x":16,"y":-710,"width":167,"height":150},
+		{"id":"fd68bd411588ab5c","type":"text","text":"Airport\n- ID\n- Country\n- Name\n- Code","x":320,"y":-780,"width":200,"height":180},
+		{"id":"4255f68a89cd76ac","type":"text","text":"Booking\n- ID\n- FlightId\n- PaymentId\n- Seat Number\n- Class\n- Date","x":734,"y":-672,"width":226,"height":232},
+		{"id":"ea9e218963789e49","type":"text","text":"**User**\n- ID\n- Name\n- Email\n- Password\n- Mobile Number","x":420,"y":30,"width":314,"height":230},
+		{"id":"a8b1b37c48ba11f0","type":"text","text":"**Payment**\n- ID\n- TransactionNumber\n- UserId\n- Booking Reference\n- PaymentType (Paypal/Credit Card)\n- IsSucceeded","x":734,"y":-312,"width":332,"height":230}
+	],
+	"edges":[
+		{"id":"3f24e29829ee117c","fromNode":"c0f5a0adcafd4cfc","fromSide":"right","toNode":"708b3b287c5937ee","toSide":"left"},
+		{"id":"ebf7db9c54bf29fe","fromNode":"708b3b287c5937ee","fromSide":"bottom","toNode":"51702e3506aad986","toSide":"top"},
+		{"id":"a9997e959f0a6f10","fromNode":"708b3b287c5937ee","fromSide":"bottom","toNode":"ea9e218963789e49","toSide":"top"},
+		{"id":"9a4acb0bdbb61acb","fromNode":"708b3b287c5937ee","fromSide":"right","toNode":"4255f68a89cd76ac","toSide":"left"},
+		{"id":"52957850f3da66fe","fromNode":"708b3b287c5937ee","fromSide":"top","toNode":"fd68bd411588ab5c","toSide":"bottom"},
+		{"id":"06001085e5c1927f","fromNode":"708b3b287c5937ee","fromSide":"top","toNode":"25c37dac1d8d9558","toSide":"bottom"},
+		{"id":"72e7cc57f0453e9c","fromNode":"708b3b287c5937ee","fromSide":"bottom","toNode":"a8b1b37c48ba11f0","toSide":"top"}
+	]
+}
