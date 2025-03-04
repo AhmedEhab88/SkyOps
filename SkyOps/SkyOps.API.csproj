@@ -11,4 +11,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Feature\Booking\" />
+    <Folder Include="Feature\Flight\" />
+    <Folder Include="Feature\Payment\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkyOps.Domain\SkyOps.Domain.csproj" />
+    <ProjectReference Include="..\SkyOps.Infrastructure\SkyOps.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
