@@ -18,6 +18,11 @@
 # Mono auto generated files
 mono_crash.*
 
+SkyOps/obj
+SkyOps/.vs
+SkyOps.Domain/obj
+SkyOps.Infrastructure/obj
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
