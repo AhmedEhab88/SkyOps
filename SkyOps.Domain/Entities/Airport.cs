@@ -9,5 +9,8 @@ namespace SkyOps.Domain.Entities
 {
     public class Airport : Entity
     {
+        public required string Name { get; set; }
+        public required string Country { get; set; }
+        public required string Code { get; set; }
     }
 }
